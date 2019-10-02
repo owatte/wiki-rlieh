@@ -52,3 +52,5 @@ sudo apt-get install git python3-pip
 <code>
 sudo pip3 install rlieh-satlight rlieh_pwm W1ThermSensor
 </code> 
+
+Et voilà !
