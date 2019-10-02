@@ -8,6 +8,12 @@ Les PWM sont gérés via l'API web RLIEH (satelittes + serveur local) ou en lig
 
 Il est possible de définir des phases d'éclairage et de les déclancher à des heures plannifiées 
 
+#### Installation composants logiciels
+
+##### Installation piblaster
+
+La gestion du PWM sur le raspberry Pi est assurée par [pi-blaster](https://github.com/sarfata/pi-blaster)
+
 #### Définition des phases d'éclairage
 
 La création d'une phase d'éclairage via PWM repose sur 3 paramètres : 
@@ -34,7 +40,7 @@ rlieh-sat-light -i fichier-de-configuration -p phase-de-lumiere
 ##### Section hardware
 La section ''hardware'' est différente pour le serveur et un sat. (TODO: uniformiser la section hardware)
 
-Pour un satelitte ou un serveur distant gérér via l'API web, il faut préciser l'`ip` et le `pwm_channel`; pour le contrôleur RLIEH local, il faut en plus indiquer le GPIP (`pin`) (TODO renommer pin en gpio),
+Pour un satelitte ou un serveur distant gérér via l'API web, il faut préciser l'`ip` et le `pwm_channel`; pour le contrôleur RLIEH local, il faut en plus indiquer le GPI0 (`pin`) (TODO renommer pin en gpio),
 
 ##### section light_thresholds
 
