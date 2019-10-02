@@ -19,10 +19,9 @@ Documentation officielle pour installer Raspbian à partir de différents systè
 
 #### Installation via `dd` 
 
-<code>
+```
 dd bs=4M if=2019-09-26-raspbian-buster-lite.img of=/dev/sdX conv=fsync
-</code>
-
+```
 raspberrypi.org / [Installing operating system images on Linux](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md)
 
 
@@ -31,9 +30,9 @@ raspberrypi.org / [Installing operating system images on Linux](https://www.rasp
 Utilisateur Linux, je signale l'outil [flash](https://github.com/hypriot/flash) développé par l'équipe de Hypriot OS. 
 Attention : flash a quelques [dépendances](https://github.com/hypriot/flash#install-dependencies) 
 
-<code>
+```
 flash --hostname rlieh --ssid mon-hotspot --password mon-hotspot-psk --device /dev/mmcblk0 https://downloads.raspberrypi.org/raspbian_lite_latest
-</code>
+```
 
 Ma dernière utilisation de Flash n'a pas fonctionné pour le paramétrage du WiFi et semble-t-il a juste copié l'image (+ la téclécharger) sur la SD  
 
@@ -65,8 +64,7 @@ Créer un fichier `wpa_supplicant.conf`
 ##### Exemple wpa_supplicant.conf
  
  
-<code>
-country=us
+```country=us
 update_config=1
 ctrl_interface=/var/run/wpa_supplicant
 
@@ -74,7 +72,7 @@ network={
  ssid="<Name of your WiFi>"
  psk="<Password for your WiFi>"
 }
-</code>
+```
 
 #### Config.txt
 
