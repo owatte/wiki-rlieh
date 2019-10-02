@@ -12,16 +12,16 @@ Les satelittes RLIEH sont des contrôleurs passifs commandés par le contrôleur
 
 Cette documentation regroupe les éléments suivants
 * [Serveur RLIEH sur Raspberry-pi](raspberry-pi/index.md)
-** [Installation du système Raspbian](raspberry-pi/installation_raspbian.md)
-** [Customisation Raspbian pour RLIEH](raspberry-pi/installation_systeme_rlieh_sur_raspberry_pi.md)
-** [Branchement des équipements et des sondes](raspberry-pi/rlieh-raspberry-pi-hat.md)
-** [Installation et paramétrages des agents RLIEH](raspberry-pi/parametrage_serveur_rlieh.md) (éclairage LEDS, ventilateurs, électro-vanne, température, humidité etc ...)
-** Tâches  plannifiées ponctuelles (phases d'éclairage) et permanentes (thermostat)
+  * [Installation du système Raspbian](raspberry-pi/installation_raspbian.md)
+  * [Customisation Raspbian pour RLIEH](raspberry-pi/installation_systeme_rlieh_sur_raspberry_pi.md)
+  * [Branchement des équipements et des sondes](raspberry-pi/rlieh-raspberry-pi-hat.md)
+  * [Installation et paramétrages des agents RLIEH](raspberry-pi/parametrage_serveur_rlieh.md) (éclairage LEDS, ventilateurs, électro-vanne, température, humidité etc ...)
+  * Tâches  plannifiées ponctuelles (phases d'éclairage) et permanentes (thermostat)
 * Satelitte RLIEH sur ESP
-** Montage d'un satellite (assemblage boîtier et kit)
-** Téléchargement et personnalisation de l'image
-** Branchement des sondes et des équipements
+  * Montage d'un satellite (assemblage boîtier et kit)
+  * Téléchargement et personnalisation de l'image
+  * Branchement des sondes et des équipements
 * Sondes RLIEH
-** Connecteur grove pour DS18B20
+  * Connecteur grove pour DS18B20
 * Éclairage LEDs
-** connection d'une rampe commerciale ou maison
+  * connection d'une rampe commerciale ou maison
