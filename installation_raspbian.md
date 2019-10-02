@@ -44,7 +44,7 @@ Un article est dédié à l'[installation sur périphérique USB](installation_s
 ### Modifications avant 1er boot
 
 On modifie le système pour être utilisable via réseau dès le 1er boot (
-[headless system](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) et activer la prise en compte de certains bus ou protocoles utilisés par les sondes (ex : [1-Wire](https://en.wikipedia.org/wiki/1-Wire)
+[headless system](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md))
 
 Ces actions sont à appliquer dans la partition boot (partition FAT32), avant le 1er boot. 
 
