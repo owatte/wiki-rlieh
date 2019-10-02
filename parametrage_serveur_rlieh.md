@@ -15,13 +15,13 @@ Il est possible de définir des phases d'éclairage et de les déclancher à des
 La gestion du PWM sur le raspberry Pi est assurée par [pi-blaster](https://github.com/sarfata/pi-blaster)
 
 <code>
-  mkdir /home/pi/src
-  cd /home/pi/src
-  git clone https://github.com/sarfata/pi-blaster.git
-  cd pi-blaster
-  sudo apt-get install debhelper dh-autoreconf dh-systemd dpkg-dev \
-  init-system-helpers autoconf
-  sudo dpkg -i ../pi-blaster_0.1.2_armhf.deb
+mkdir /home/pi/src
+cd /home/pi/src
+git clone https://github.com/sarfata/pi-blaster.git
+cd pi-blaster
+sudo apt-get install debhelper dh-autoreconf dh-systemd dpkg-dev \
+init-system-helpers autoconf
+sudo dpkg -i ../pi-blaster_0.1.2_armhf.deb
 </code>
 
 #### Définition des phases d'éclairage
