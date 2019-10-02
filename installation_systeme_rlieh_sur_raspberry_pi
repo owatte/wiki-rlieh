@@ -12,7 +12,7 @@ ssh-copy-id pi@<IP-RASPI>
 ssh pi@<IP-RASPI>
 </code>
 
-==== Mise à jour système ====
+#### Mise à jour système
 
 <code>
 sudo apt-get update && sudo apt-get upgrade
