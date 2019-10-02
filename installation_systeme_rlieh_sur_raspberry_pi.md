@@ -7,8 +7,8 @@ Apres l'[installation de raspbian](installation_raspbian.md), il reste pour lanc
 #### Copie clé SSH et 1ère connexion SSH
 
 <code>
-ssh-copy-id pi@<IP-RASPI>
-ssh pi@<IP-RASPI>
+ssh-copy-id pi@IP-RASPI
+ssh pi@IP-RASPI
 </code>
 
 #### Mise à jour système
