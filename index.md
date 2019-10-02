@@ -1,3 +1,16 @@
+## Documentation Systèmes RLIEH
+
+Les systèmes RLIEH sont des outils pour contrôler et gérer des écosystèmes clos comme des aquariums et des terrariums
+
+Les outils logiciels RLIEH peuvent s'installer
+- Sur un nano ordinateur type raspberry Pi 
+- sur un ESP (sondes et périphériques actionnés par GPIO)
+- sur un ordinateur (hors sondes nécessitant des GPIO)
+
+### Installation sur un Raspberry Pi
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/owatte/wiki-rlieh/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
