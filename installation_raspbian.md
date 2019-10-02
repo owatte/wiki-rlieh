@@ -2,15 +2,15 @@
 
 L'installation de Raspbian sur RaspberryPi se fait depuis un desktop, en 3 étapes : 
   - téléchargement d'une image compressée de Raspbian ;
-  - copie de l'image téléchargée sur une carte microSD ou [installation_sur_cle_usb.md](sur un périphérique USB externe), avec un outil spécifique : [https://www.raspberrypi.org/documentation/installation/installing-images/](raspberrypi.or/installing) images (anglais)
+  - copie de l'image téléchargée sur une carte microSD ou [sur un périphérique USB externe](installation_sur_cle_usb.md), avec un outil spécifique : [raspberrypi.or/installing](https://www.raspberrypi.org/documentation/installation/installing-images/) (anglais)
   - modification de l'image téléchargée avant le 1er boot 
 
 ### Téléchargement 
 
+Téléchargement : [www.raspberrypi.org/do.wnloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/)
+
 Note : on utilise utilise Raspbian lite, c'est à dire **la version sans desktop**
  
-[https://www.raspberrypi.org/downloads/raspbian/](www.raspberrypi.org/do.wnloads/raspbian/)
-
 ### Installation
 
 #### Installation via `dd` 
@@ -19,13 +19,13 @@ Note : on utilise utilise Raspbian lite, c'est à dire **la version sans desktop
 dd bs=4M if=2019-09-26-raspbian-buster-lite.img of=/dev/sdX conv=fsync
 </code>
 
-raspberrypi.org / [https://www.raspberrypi.org/documentation/installation/installing-images/linux.md](Installing operating system images on Linux)
+raspberrypi.org / [Installing operating system images on Linux](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md)
 
 
 #### Installation via Flash
 
-Utilisateur Linux, je signale l'outil [https://github.com/hypriot/flash](flash) développé par l'équipe de Hypriot OS. 
-Attention : flash a quelques [https://github.com/hypriot/flash#install-dependencies](dépendances) 
+Utilisateur Linux, je signale l'outil [flash](https://github.com/hypriot/flash) développé par l'équipe de Hypriot OS. 
+Attention : flash a quelques [dépendances](https://github.com/hypriot/flash#install-dependencies) 
 
 <code>
 flash --hostname rlieh --ssid mon-hotspot --password mon-hotspot-psk --device /dev/mmcblk0 https://downloads.raspberrypi.org/raspbian_lite_latest
@@ -37,12 +37,12 @@ Ma dernière utilisation de Flash n'a pas fonctionné pour le paramétrage du Wi
  
 #### Installation sur clé USB ####
 
-Un article est dédié à l'[installation_sur_cle_usb.md](installation sur périphérique USB) (clé USB, HDD, SSD)
+Un article est dédié à l'[installation sur périphérique USB](installation_sur_cle_usb.md) (clé USB, HDD, SSD)
 
 ### Modifications avant 1er boot
 
 On modifie le système pour être utilisable via réseau dès le 1er boot (
-[https://www.raspberrypi.org/documentation/configuration/wireless/headless.md](headless system) et activer la prise en compte de certains bus ou protocoles utilisés par les sondes (ex : [https://en.wikipedia.org/wiki/1-Wire](1-Wire)
+[headless system](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) et activer la prise en compte de certains bus ou protocoles utilisés par les sondes (ex : [1-Wire](https://en.wikipedia.org/wiki/1-Wire)
 
 Ces actions sont à appliquer dans la partition boot (partition FAT32), avant le 1er boot. 
 
@@ -58,7 +58,7 @@ Note : ce fichier sera détruit lors du boot et sa création ne vous épargne pa
 
 Créer un fichier `wpa_supplicant.conf`
 
-##### Exemple
+##### Exemple wpa_supplicant.conf
  
  
 <code>
