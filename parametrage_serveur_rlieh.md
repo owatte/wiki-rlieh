@@ -22,6 +22,11 @@ sudo apt-get install debhelper dh-autoreconf dh-systemd dpkg-dev \
 init-system-helpers autoconf
 sudo dpkg -i ../pi-blaster_0.1.2_armhf.deb
 ```
+##### Installation outils CLI
+
+```bash
+sudo pip3 install rlieh-satlight rlieh_pwm 
+```
 
 #### Définition des phases d'éclairage
 
