@@ -1,6 +1,6 @@
 ## Installation d'un système RLIEH sur Raspberry Pi
 
-Apres l'[installation de r)aspbian](installation_raspbian.md, il reste pour lancer le système de gestion de l'aquarium ou du terrarium, à installer quelques outils logiciels puis paramétrer des tâches plannifiées pour activer les agents
+Apres l'[installation de raspbian](installation_raspbian.md), il reste pour lancer le système de gestion de l'aquarium ou du terrarium, à installer quelques outils logiciels puis paramétrer des tâches plannifiées pour activer les agents
 
 ### 1er boot, post-install Raspbian 
 
