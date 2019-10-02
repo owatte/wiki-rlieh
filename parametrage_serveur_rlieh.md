@@ -17,7 +17,7 @@ La création d'une phase d'éclairage via PWM repose sur 3 paramètres : 
 
 #### Déclanchement d'une phase d'éclairage
 
-Le système RLIEH utilise `cron`, le service de gestiond de tâches plannifiées de GNU/Linux, qui permet dé déclancher ces phases d'éclairage, à des moments précis, identiques ou différents chaque jour 
+Le système RLIEH utilise `cron`, le service de gestion de tâches plannifiées de GNU/Linux, qui permet dé déclancher ces phases d'éclairage, à des moments précis, identiques ou différents chaque jour 
 
 ### Rlieh-sat-light
 
@@ -31,6 +31,22 @@ rlieh-sat-light -i fichier-de-configuration -p phase-de-lumiere
 
 #### Fichier de configuration
 
+##### Section hardware
+La section ''hardware'' est différente pour le serveur et un sat. (TODO: uniformiser la section hardware)
+
+Pour un satelitte ou un serveur distant gérér via l'API web, il faut préciser l'`ip` et le `pwm_channel`; pour le contrôleur RLIEH local, il faut en plus indiquer le GPIP (`pin`) (TODO renommer pin en gpio),
+
+##### section light_thresholds
+
+La section ''light_thresholds'' permet de définir les phases avec pour chacune, l'intensité de début et de fin
+`phase = [debut, fin]`
+
+#### section light_duration
+
+La section ''light_duration'' permet de définir la durée d'une phase en secondes
+`phase = 600` (600 = 60 * 10 = 10 mn)  
+
+#### Fichier exemple
 ```
 [hardware]
 type = sat
@@ -44,20 +60,21 @@ pwm_channel = 0
 [light_thresholds]
 dawn = [0, 20]
 sunrise = [20, 100]
-noon = [75, 100, 75] ; unused
 sunset = [100, 20]
 dusk  = [20, 0]
 test = [100, 0]
+acclimation = [100, 20]
 
 ; use json.load with configparser to read lists in .ini
 ; see https://stackoverflow.com/questions/335695/lists-in-configparser
 
 ; light modulation phases duration (in mn)
 [light_duration]
-dawn = 10
-sunrise = 10
-sunset = 10
-dusk = 10 
-test = 0.1
+dawn = 600
+sunrise = 1200
+sunset = 1200
+dusk = 600
+test = 10
+acclimatation = 5 
 ```
 
