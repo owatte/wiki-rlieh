@@ -2,6 +2,13 @@
 
 Les systèmes RLIEH sont des outils pour contrôler et gérer des écosystèmes clos comme des aquariums et des terrariums
 
+Le système peut gérer un simple bac ou plusieurs batteries installées dpans des endroits différents.
+
+Le système classique est constitué d'un nano-ordinateur type Raspberry Pi,  avec une carte d'extension permettant de brancher des sondes et ontrôler différents équipements électriques, 12/24V ou 110/220V. 
+Le contrôleur RHLIEH peut étendre ses fonctionnalités et le nombre d'installation contrôlées par l'ajout de cartes optionnelles  ou en dialoguant via réseau avec satellites RLIEH. 
+
+Les satelittes RLIEH sont des contrôleurs passifs commandés par le contrôleur RLIEH pour piloter des équipements électriques ou lire les mesures effectuées par les sondes.
+
 Les outils logiciels RLIEH peuvent s'installer
 - Sur un nano ordinateur type raspberry Pi 
 - sur un ESP (sondes et périphériques actionnés par GPIO)
