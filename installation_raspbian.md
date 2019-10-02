@@ -2,7 +2,7 @@
 
 L'installation de Raspbian sur RaspberryPi se fait depuis un desktop, en 3 étapes : 
   - téléchargement d'une image compressée de Raspbian ;
-  - copie de l'image téléchargée sur une carte microSD ou [sur un périphérique USB externe](installation_sur_cle_usb.md), avec un outil spécifique : [raspberrypi.or/installing](https://www.raspberrypi.org/documentation/installation/installing-images/) (anglais)
+  - copie de l'image téléchargée sur une carte microSD ou [sur un périphérique USB externe](installation_sur_cle_usb.md), avec un outil spécifique. 
   - modification de l'image téléchargée avant le 1er boot 
 
 ### Téléchargement 
@@ -12,6 +12,8 @@ Téléchargement : [www.raspberrypi.org/do.wnloads/raspbian/](https://www.raspb
 Note : on utilise utilise Raspbian lite, c'est à dire **la version sans desktop**
  
 ### Installation
+
+[raspberrypi.or/installing](https://www.raspberrypi.org/documentation/installation/installing-images/) (anglais)
 
 #### Installation via `dd` 
 
