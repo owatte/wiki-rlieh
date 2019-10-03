@@ -45,13 +45,13 @@ Reboot
 ```
 sudo apt-get install git python3-pip
 ```
-### Répertoire home
+#### Répertoire home
 
 ```
 mkdir -p /home/pi/{bin,src,conf,crontab}
 echo 'export PATH=/home/pi/bin:$PATH'  >> /home/pi/.bashrc'
 ```
-### Cron
+#### Cron
 
 ```
 crontab -u user - <<EOF
@@ -61,7 +61,7 @@ EOF
 ln -s /var/spool/cron/crontabs/pi /home/pi/crontab/pi
 ```
 
-### Répertoire de logs
+#### Répertoire de logs
 
 ```
 sudo mkdir /var/log/rlieh
