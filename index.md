@@ -15,9 +15,7 @@ Les satellites RLIEH sont des contrôleurs passifs commandés via une connexion 
 ## Contenu de la documentation
 La documentation et le wiki RLIEH sont en cours d'écriture. 
 
-### Serveur RLIEH Controller sur Raspberry-pi
-
-Les composants logiciels utilisés ou développés spécifiquement dans le cadre du projet RLIEH sont des outils respectant les standards GNU/Linux et Python. 
+### Serveur RLIEH Controller sur Raspberry-pi 
 
 Le serveur RLIEH Controller sur Raspberry Pi peut s'installer sur les systèmes d'exploitation Arch et Raspbian.
 
