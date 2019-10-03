@@ -48,8 +48,17 @@ sudo apt-get install git python3-pip
 ### Répertoire home
 
 ```
-mkdir mkdir -p /home/pi/{bin,src,conf}
+mkdir -p /home/pi/{bin,src,conf,crontab}
 echo 'export PATH=/home/pi/bin:$PATH'  >> /home/pi/.bashrc'
+```
+### Cron
+
+```
+crontab -u user - <<EOF
+# m h  dom mon dow   command
+MAILTO=""
+EOF
+ln -s /var/spool/cron/crontabs/pi /home/pi/crontab/pi
 ```
 
 ### Répertoire de logs
