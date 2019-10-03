@@ -1,7 +1,7 @@
 ## Paramétrage serveur RLIEH
-Le fonctiomment d'un serveur RLIEH repose sur agents, activés par des tâches plannifiées, ponctuelles ou répétées, et configurés dans des fichiers .INI
+Le fonctionnement d'un serveur RLIEH repose sur des agents, activés par des tâches plannifiées, ponctuelles ou répétées, et configurés dans des fichiers .INI
 
-Le serveur peut également dialoguer avec un serveur RLIEH pour activer des équipements gérés et lire les valeurs des sondes
+Le serveur peut également dialoguer avec un satellite RLIEH pour activer des équipements gérés et lire les valeurs des sondes
 
 ### Gestion éclairage 
 Les PWM sont gérés via l'API web RLIEH (satelittes + serveur local) ou en ligne de commande (serveur local uniquement)
