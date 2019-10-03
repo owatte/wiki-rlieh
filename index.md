@@ -4,20 +4,20 @@ Les systèmes RLIEH sont des solutions hardware et software pour contrôler et g
 
 Un contrôleur RLIEH peut gérer un simple bac ou des installations complexes avec plusieurs batteries installées dans des lieux différents.
 
-### Serveur RLIEH Controller
+### Serveur RLIEH Smart Controller
 Le système classique est constitué d'un nano-ordinateur type Raspberry Pi,  avec une carte d'extension permettant de brancher des sondes et contrôler différents équipements électriques, 12/24V ou 110/220V. 
 
 Le contrôleur RHLIEH peut étendre ses fonctionnalités ou le nombre d'installations contrôlées par l'ajout de cartes optionnelles  ou en dialoguant via réseau avec des satellites RLIEH. 
 
-### Satellite RLIEH Controller
+### Satellite RLIEH Smart Controller
 Les satellites RLIEH sont des contrôleurs passifs commandés via une connexion WiFi par le serveur RLIEH, pour piloter des équipements électriques ou lire les mesures effectuées par des sondes.
 
 ## Contenu de la documentation
 La documentation et le wiki RLIEH sont en cours d'écriture. 
 
-### Serveur RLIEH Controller sur Raspberry-pi 
+### Serveur RLIEH Smart Controller sur Raspberry-pi 
 
-Le serveur RLIEH Controller sur Raspberry Pi peut s'installer sur les systèmes d'exploitation Arch et Raspbian.
+Le serveur RLIEH Smart Controller sur Raspberry Pi peut s'installer sur les systèmes d'exploitation Arch et Raspbian.
 
 Seule l'installation Raspbian est documentée à l'heure actuelle
 
@@ -27,7 +27,7 @@ Seule l'installation Raspbian est documentée à l'heure actuelle
 * [Installation et paramétrages des agents RLIEH](raspberry-pi/parametrage_serveur_rlieh.md) (éclairage LEDS, ventilateurs, électro-vanne, température, humidité etc ...)
 * Tâches  plannifiées ponctuelles (phases d'éclairage) et permanentes (thermostat)
 
-### satellite RLIEH sur ESP
+### satellite RLIEH Smart Controller sur ESP
 
 * Montage d'un satellite (assemblage boîtier et kit)
 * Téléchargement et personnalisation de l'image
@@ -42,10 +42,10 @@ Seule l'installation Raspbian est documentée à l'heure actuelle
 
 * connection d'une rampe commerciale ou maison
 
-### API Restful unifiée pour Raspberry Pi et ESP
+### Restful RLIEH Smart Comtroller API unifiée pour Raspberry Pi et ESP
 
 * documentation et test de l'API
 * limitations de l'API sur les sats
 
-### Android RLIEH app : commandez vos contrôleurs RLIEH depuis votre smartphone 
+### Android RLIEH Smart Controler app : commandez vos contrôleurs RLIEH depuis votre smartphone 
 
