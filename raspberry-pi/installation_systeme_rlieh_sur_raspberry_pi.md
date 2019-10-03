@@ -45,7 +45,12 @@ Reboot
 ```
 sudo apt-get install git python3-pip
 ```
+### Répertoire home
 
+```
+mkdir mkdir -p /home/pi/{bin,src,conf}
+echo 'export PATH=/home/pi/bin:$PATH'  >> /home/pi/.bashrc'
+```
 
 ### Répertoire de logs
 
