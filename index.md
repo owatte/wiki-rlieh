@@ -5,6 +5,9 @@ Les systèmes RLIEH sont des solutions hardware et software pour contrôler et g
 Un contrôleur RLIEH peut gérer un simple bac ou des installations complexes avec plusieurs batteries installées dans des lieux différents.
 
 ### Serveur RLIEH Smart Controller
+
+Toute l'intelligence du systeme RLIEH se trouve au niveau du serveur : orchestration des tâches, moninotoring des valeurs mesurées par les sondes, data logging, système d'alertes et de publication vers les réseaux.
+
 Le système classique est constitué d'un nano-ordinateur type Raspberry Pi,  avec une carte d'extension permettant de brancher des sondes et contrôler différents équipements électriques, 12/24V ou 110/220V. 
 
 Le contrôleur RHLIEH peut étendre ses fonctionnalités ou le nombre d'installations contrôlées par l'ajout de cartes optionnelles  ou en dialoguant via réseau avec des satellites RLIEH. 
