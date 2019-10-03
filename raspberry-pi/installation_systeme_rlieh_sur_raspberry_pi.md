@@ -6,36 +6,36 @@ Apres l'[installation de raspbian](installation_raspbian.md), il reste pour lanc
 
 #### Copie clé SSH et 1ère connexion SSH
 
-<code>
+```
 ssh-copy-id pi@IP-RASPI
 ssh pi@IP-RASPI
-</code>
-
+```
 #### Mise à jour système
 
-<code>
+```
 sudo apt-get update && sudo apt-get upgrade
-</code>
+```
 
 #### Raspi-config
 
-<code>
+```
 sudo raspi-config
-</code>
+```
 
-  * 1. Change user password
-  * 2. Network Options
+Options à modifier :
+
+  * 1 Change user password
+  * 2 Network Options
     *    N1 Hostname
-  * 4. Localization Options
+  * 4 Localization Options
     *  I1 Change locale (fr_FR.UTF-8 UTF-8)
     *  I2 Change Timezone
     *  I3 Change Keyboard layout
-  * 5. Interfacing Options
+  * 5 Interfacing Options
     * P1 enable camera
     * P2 enable SSH server
     * P5 enable I2C
     * P7 enable one-wire interface
-  * 7.Update
 
 Reboot
 
