@@ -1,8 +1,8 @@
 ## Documentation Systèmes RLIEH
 
-Les systèmes RLIEH sont des solutions hardware et software pour contrôler et gérer des écosystèmes clos comme des aquariums et des terrariums.
+Les systèmes RLIEH sont des solutions hardware et software pour contrôler et gérer des écosystèmes clos comme des aquariums, des terrariums ou des serres.
 
-Le système peut gérer un simple bac ou plusieurs batteries installées dans des lieux différents.
+Un contrôleur RLIEH peut gérer un simple bac ou des installations complexes avec plusieurs batteries installées dans des lieux différents.
 
 ### Serveur RLIEH Controller
 Le système classique est constitué d'un nano-ordinateur type Raspberry Pi,  avec une carte d'extension permettant de brancher des sondes et contrôler différents équipements électriques, 12/24V ou 110/220V. 
