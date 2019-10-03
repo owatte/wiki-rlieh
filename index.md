@@ -7,7 +7,7 @@ Un contrôleur RLIEH peut gérer un simple bac ou des installations complexes av
 ### Serveur RLIEH Controller
 Le système classique est constitué d'un nano-ordinateur type Raspberry Pi,  avec une carte d'extension permettant de brancher des sondes et contrôler différents équipements électriques, 12/24V ou 110/220V. 
 
-Le contrôleur RHLIEH peut étendre ses fonctionnalités ou le nombre d'installations contrôlées par l'ajout de cartes optionnelles  ou en dialoguant via réseau avec satellites RLIEH. 
+Le contrôleur RHLIEH peut étendre ses fonctionnalités ou le nombre d'installations contrôlées par l'ajout de cartes optionnelles  ou en dialoguant via réseau avec des satellites RLIEH. 
 
 ### Satellite RLIEH Controller
 Les satellites RLIEH sont des contrôleurs passifs commandés via une connexion WiFi par le serveur RLIEH, pour piloter des équipements électriques ou lire les mesures effectuées par des sondes.
