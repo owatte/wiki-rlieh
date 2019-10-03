@@ -10,7 +10,7 @@ Le système classique est constitué d'un nano-ordinateur type Raspberry Pi,  av
 Le contrôleur RHLIEH peut étendre ses fonctionnalités ou le nombre d'installations contrôlées par l'ajout de cartes optionnelles  ou en dialoguant via réseau avec satellites RLIEH. 
 
 ### Satellite RLIEH Controller
-Les satellites RLIEH sont des contrôleurs passifs commandés par le contrôleur RLIEH, pour piloter des équipements électriques ou lire les mesures effectuées par des sondes.
+Les satellites RLIEH sont des contrôleurs passifs commandés via une connexion WiFi par le serveur RLIEH, pour piloter des équipements électriques ou lire les mesures effectuées par des sondes.
 
 ## Contenu de la documentation
 La documentation et le wiki RLIEH sont en cours d'écriture. 
