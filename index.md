@@ -9,8 +9,8 @@ Le système classique est constitué d'un nano-ordinateur type Raspberry Pi,  av
 
 Le contrôleur RHLIEH peut étendre ses fonctionnalités ou le nombre d'installations contrôlées par l'ajout de cartes optionnelles  ou en dialoguant via réseau avec satellites RLIEH. 
 
-### Satelitte RLIEH Controller
-Les satelittes RLIEH sont des contrôleurs passifs commandés par le contrôleur RLIEH, pour piloter des équipements électriques ou lire les mesures effectuées par des sondes.
+### satellite RLIEH Controller
+Les satellites RLIEH sont des contrôleurs passifs commandés par le contrôleur RLIEH, pour piloter des équipements électriques ou lire les mesures effectuées par des sondes.
 
 ## Contenu de la documentation
 La documentation et le wiki RLIEH sont en cours d'écriture. 
@@ -22,7 +22,7 @@ Ce wiki aborde les points suivants :
   * [Branchement des équipements et des sondes](raspberry-pi/rlieh-raspberry-pi-hat.md)
   * [Installation et paramétrages des agents RLIEH](raspberry-pi/parametrage_serveur_rlieh.md) (éclairage LEDS, ventilateurs, électro-vanne, température, humidité etc ...)
   * Tâches  plannifiées ponctuelles (phases d'éclairage) et permanentes (thermostat)
-* Satelitte RLIEH sur ESP
+* satellite RLIEH sur ESP
   * Montage d'un satellite (assemblage boîtier et kit)
   * Téléchargement et personnalisation de l'image
   * Branchement des sondes et des équipements
