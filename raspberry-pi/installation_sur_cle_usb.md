@@ -24,3 +24,13 @@ Vous avez besoin d'une clé USB (ou disque dur ou SSD) et également d'une carte
   - éteignez le Raspberry Pi ;
   - retirez la SD card et insérez votre périphérique USB
   - redémarrez le Raspberry Pi 
+
+### Vérification installation sur US
+
+Pour vérifier que l'instruction de boot sur USB est correctement configurée, taper
+
+```
+vcgencmd otp_dump | grep 17
+```
+
+La commande doit retourner : `17:3020000a`. Si oui, vous pouvez éteindre et redémarrer sans clé USB, et si non, recommencez.
