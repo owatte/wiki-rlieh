@@ -23,20 +23,6 @@ Documentation officielle pour installer Raspbian à partir de différents systè
 dd bs=4M if=2019-09-26-raspbian-buster-lite.img of=/dev/sdX conv=fsync
 ```
 raspberrypi.org / [Installing operating system images on Linux](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md)
-
-
-#### Installation via Flash
-
-Utilisateur Linux, je signale l'outil [flash](https://github.com/hypriot/flash) développé par l'équipe de Hypriot OS. 
-Attention : flash a quelques [dépendances](https://github.com/hypriot/flash#install-dependencies) 
-
-```
-flash --hostname rlieh --ssid mon-hotspot --password mon-hotspot-psk --device /dev/mmcblk0 https://downloads.raspberrypi.org/raspbian_lite_latest
-```
-
-Ma dernière utilisation de Flash n'a pas fonctionné pour le paramétrage du WiFi et semble-t-il a juste copié l'image (+ la téclécharger) sur la SD  
-
-À vérifier si toujours possibilité de copie d'un config.txt surchargé 
  
 #### Installation sur clé USB ####
 
