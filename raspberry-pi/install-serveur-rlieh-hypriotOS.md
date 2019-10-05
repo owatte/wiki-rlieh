@@ -10,7 +10,7 @@ HypriotOS est une version optimisée IOT et Docker de Raspbian lite. C'est proba
 $ wget https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/rlieh-hypriot-config.txt -O rlieh-hypriot-config.txt
 $ wget https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/rlieh-hypriot-cloud-init.yml -O rlieh-hypriot-cloud-init.yml
 $ flash --bootconf rlieh-hypriot-config.txt \
---userdata rlieh-hypriot-cloud-init.txt \
+--userdata rlieh-hypriot-cloud-init.yml \
 --device /dev/sdb \ 
 https://github.com/hypriot/image-builder-rpi/releases/download/v1.11.2/hypriotos-rpi-v1.11.2.img.zip
 
