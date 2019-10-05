@@ -5,6 +5,12 @@ HypriotOS est une version optimisée IOT et Docker de Raspbian lite. C'est proba
 - serveur SSH activé par défaut
 - support de cloud-init pour construire sa propre image (avec le WiFi configuré) et un paramétrage automatique lors du 1er boot
 
+## Installation rapide
+$ wget https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/rlieh-hypriot-config.txt -O rlieh-hypriot-config.txt
+$ wget https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/rlieh-hypriot-cloud-init.yml -O rlieh-hypriot-cloud-init.yml
+$ flash --bootconf rlieh-hypriot-config.txt --metadata rlieh-hypriot-cloud-init.txt  https://github.com/hypriot/image-builder-rpi/releases/download/v1.11.2/hypriotos-rpi-v1.11.2.img.zip
+$ ssh pirate@black-pearl.local
+
 Pour les personnes ne pouvant pas utiliser l'outil de construction d'image, une image standard préconstruite est disponible.
 TODO publier img sur github, ajouter lien vers img + vers doc hypriot https://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/ etc ...)
 
