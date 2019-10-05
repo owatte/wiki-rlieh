@@ -1,0 +1,14 @@
+hdmi_force_hotplug=1
+enable_uart=0
+
+# camera settings, see http://elinux.org/RPiconfig#Camera
+start_x=1
+disable_camera_led=1
+gpu_mem=128
+
+# Enable audio (added by raspberrypi-sys-mods)
+dtparam=audio=on
+
+# Enable 1wire 
+# and change GPIO to fit with rlieh card specs (will change for next RLIEH card release, should be the default GPIO (GPIO4)
+dtoverlay=w1-gpio,gpiopin=6
