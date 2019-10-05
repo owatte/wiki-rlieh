@@ -18,7 +18,14 @@ sudo apt-get update && sudo apt-get upgrade
 
 #### Raspi-config
 
+##### Ansible Raspi-confg
+
+La configuration d'un raspberry Pi avec le système raspbian-lite peut se faire avec un script ansible
+
 ```
+wget https://raw.githubusercontent.com/owatte/ansible-raspi-config/master/raspi-config.yml -O rlieh-raspi-config.yml
+```
+
 sudo raspi-config
 ```
 
