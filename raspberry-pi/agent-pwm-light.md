@@ -21,7 +21,7 @@ sudo pip3 install rlieh-satlight rlieh_pwm
 Le serveur RLIEH Controller peut gérér des éclairages de LEDs branchées sur le raspberry Pi ainsi que des éclairages distants branchés sur des satellites RLIEH
 
 
-Les phases de lumière sont paramétrées dans un fichier ini qui précise
+Les phases de lumière sont définies par
 - la quantité de lumière en début et en fin de phase (en pourcent)
 - la durée de la phase
 
