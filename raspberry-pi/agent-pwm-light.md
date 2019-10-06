@@ -178,4 +178,18 @@ TODO ajouter doc pour cron boot et guardian pour ré-allumage éclairage en cas 
 
 Je choisi pour les fichiers de configuration des conventions de nommage qui me permettent d'envoyer des instructions à 1 fish-room entière ou un rack, tout en me permettant de dialoguer avec un sous ensemble
 
-#### Allumage de tous les étages d'un rack
+##### Allumage de tous les étages d'un rack
+
+Les fichiers de configuration des étages du rack s'appellent respectivement `rack0_0.ini`, `rack0_1.ini` et `rack0_2.ini`
+
+```
+for i in `ls ~/conf/rack0_*.ini`; do rlieh-satlight -i $i -p sunrise; done
+```
+
+#### Éclairage faible d'un étage pour acclimatation
+
+En cas de besoin d'acclimation pour de nouveaux arrivants, j'allume la phase acclimatation pour l'étage du rack 
+```
+rlieh-satlight -i ~/conf/rack0_1.ini -p acclimatation
+```
+
