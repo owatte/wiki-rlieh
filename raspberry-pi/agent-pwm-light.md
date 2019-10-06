@@ -12,7 +12,7 @@ git clone https://github.com/sarfata/pi-blaster.git
 cd pi-blaster
 docker build -itd pi-blaster .
 /usr/bin/docker run -itd --privileged --rm -v /dev:/dev pi-blaster
-(crontab -l ; echo "@reboot /usr/bin/docker run -it --privileged --rm -v /dev:/dev pi-blaster &") 2>&1 | grep -v "no crontab" | sort | uniq | crontab -
+(crontab -l ; echo "@reboot /usr/bin/docker run -itd --privileged --rm -v /dev:/dev pi-blaster &") 2>&1 | grep -v "no crontab" | sort | uniq | crontab -
 sudo pip3 install rlieh-satlight rlieh_pwm
 ```
 
