@@ -1,3 +1,11 @@
+# @Author: Olivier Watté <user>
+# @Date:   2019-10-05T03:43:40-04:00
+# @Email:  owatte@ipeos.com
+# @Last modified by:   user
+# @Last modified time: 2019-10-06T13:54:50-04:00
+# @License: GPLv3
+# @Copyright: IPEOS I-Solutions
+
 echo "Construction docker PWM"
 cd ~/src
 git clone https://github.com/sarfata/pi-blaster.git
