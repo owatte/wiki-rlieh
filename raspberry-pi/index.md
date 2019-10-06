@@ -6,9 +6,9 @@ Le serveur RLIEH Controller sur Raspberry Pi peut s'installer sur les systèmes 
 
 Seule l'installation Raspbian est documentée à l'heure actuelle
  
-* [Installation du système Raspbian](raspberry-pi/installation_raspbian.md)
-* [Customisation Raspbian pour RLIEH](raspberry-pi/installation_systeme_rlieh_sur_raspberry_pi.md)
-* [Branchement des équipements et des sondes](raspberry-pi/rlieh-raspberry-pi-hat.md)
-* [Installation et paramétrages des agents RLIEH](raspberry-pi/parametrage_serveur_rlieh.md) (éclairage LEDS, ventilateurs, électro-vanne, température, humidité etc ...)
+* [Installation du système Raspbian](installation_raspbian.md)
+* [Customisation Raspbian pour RLIEH](installation_systeme_rlieh_sur_raspberry_pi.md)
+* [Branchement des équipements et des sondes](rlieh-raspberry-pi-hat.md)
+* [Installation et paramétrages des agents RLIEH](parametrage_serveur_rlieh.md) (éclairage LEDS, ventilateurs, électro-vanne, température, humidité etc ...)
   * [Agent lumière avec des LEDs (PWM)](agent-pwm-light.md)
 * Tâches  plannifiées ponctuelles (phases d'éclairage) et permanentes (thermostat)
