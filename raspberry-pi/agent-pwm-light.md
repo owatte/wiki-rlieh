@@ -7,18 +7,13 @@ Le serveur RHLIEH Controller et les satellites RLIEH peuvent gérér des rampes
 TODO : écrire procédure pour lumière gérée avec des relays (néons etc ...)
 
 ## Installation
-
+Connectez vous sur votre contrôleur RLIEH
 ```
 ssh rlieh@rlieh.local
-cd ~/src
-git clone https://github.com/sarfata/pi-blaster.git
-cd pi-blaster
-docker build -itd pi-blaster .
-/usr/bin/docker run -itd --privileged --rm -v /dev:/dev pi-blaster
-(crontab -l ; echo "@reboot /usr/bin/docker run -itd --privileged --rm -v /dev:/dev pi-blaster &") 2>&1 | grep -v "no crontab" | sort | uniq | crontab -
-sudo pip3 install rlieh-satlight rlieh_pwm
-sudo mkdir /var/log/rlieh/
-sudo chown rlieh: /var/log/rlieh/
+```
+Puis exécutez la commande suivante :
+```
+curl -fsSL https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/agent-pwm-light-install.sh -o agent-pwm-light-install.sh && sh agent-pwm-light-install.sh
 ```
 
 ## Paramétrage des phases d'éclairage
