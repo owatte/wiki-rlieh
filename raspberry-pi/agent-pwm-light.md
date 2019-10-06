@@ -141,8 +141,9 @@ LIGHT_MATOUBA="/usr/local/bin/rlieh-satlight -i /home/rlieh/conf/matouba.ini -p 
 
 ```
 ### Fichier cron complet exemple
-Ce fichier correspond à la configuration présentée par Mr Hackquarium [Ma fishroom : programmation des phases d’éclairage avec les LEDs](https://hackquarium.lebiklab.com/fishroom-programmation-des-phases-declairage-avec-les-leds/)
+Ce fichier correspond à la configuration présentée par Mr Hackquarium : [ma fishroom : programmation des phases d’éclairage avec les LEDs](https://hackquarium.lebiklab.com/fishroom-programmation-des-phases-declairage-avec-les-leds/)
 ```
+@reboot /usr/bin/docker run -it --privileged --rm -v /dev:/dev pi-blaster &
 MAILTO=me@example.com
 
 LIGHT_MATOUBA="/usr/local/bin/rlieh-satlight -i /home/rlieh/conf/matouba.ini -p "
@@ -169,6 +170,12 @@ LIGHT_MATOUBA="/usr/local/bin/rlieh-satlight -i /home/rlieh/conf/matouba.ini -p 
 50 20 * * * ${LIGHT_MATOUBA} dusk
 50 20 * * * /usr/local/bin/rlieh-pwm range 20 0 18 --duration=10
 ```
+bien vérifier la présence de la ligne `@reboot /usr/bin/docker run -it --privileged --rm -v /dev:/dev pi-blaster &` dans la cron.
 
 TODO ajouter doc pour cron boot et guardian pour ré-allumage éclairage en cas de coupure d'électricité  
 
+#### Astuce pratique
+
+Je choisi pour les fichiers de configuration des conventions de nommage qui me permettent d'envoyer des instructions à 1 fish-room entière ou un rack, tout en me permettant de dialoguer avec un sous ensemble
+
+#### Allumage de tous les étages d'un rack
