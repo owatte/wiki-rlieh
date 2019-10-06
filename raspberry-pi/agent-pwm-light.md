@@ -1,4 +1,4 @@
-# Installation et configuration de l'agent lumière avec des LEDs(PWM)
+# Installation et configuration de l'agent lumière avec des LEDs (PWM)
 
 Cet agent gère les phases de lumière (lever, couchers de soleil etc ...), et relance l'éclairage si besoin après une coupure d'électricité
 
