@@ -1,9 +1,10 @@
-## Installation et configuration de l'agent lumière (PWM)
+# Installation et configuration de l'agent lumière avec des LEDs(PWM)
 
 Cet agent gère les phases de lumière (lever, couchers de soleil etc ...), et relance l'éclairage si besoin après une coupure d'électricité
 
-## Installation
+TODO : écrire procédure pour lumière gérée avec des relays (néons etc ...)
 
+## Installation
 
 ```
 ssh rlieh@rlieh.local
@@ -103,6 +104,8 @@ acclimatation = 0.1
 
 ```
 
+## Plannification des phases d'éclairage
 
+Les phases sont appellées dans des tâches plannifiées avec [https://doc.ubuntu-fr.org/cron](CRON)
 
 
