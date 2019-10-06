@@ -14,11 +14,11 @@ Remarque : l'outil flash est uniquement disponible pour GNU/Linux et Mac OS.
 ```
 $ wget https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/rlieh-hypriot-cloud-init.yml -O rlieh-hypriot-cloud-init.yml
 ```
-2. Téléchargez le fichier config.txt (active WiFi et 1-wire)
+3. Téléchargez le fichier config.txt (active WiFi et 1-wire)
 ```
 $ wget https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/rlieh-hypriot-config.txt -O rlieh-hypriot-config.txt
 ```
-3. Flashez la SD card (ou le périphérique USB) en incluant les fichiers de configuration de l'image
+4. Flashez la SD card (ou le périphérique USB) en incluant les fichiers de configuration de l'image
 ```
 $ flash --device /dev/sdb \ 
 --bootconf rlieh-hypriot-config.txt \
@@ -26,7 +26,7 @@ $ flash --device /dev/sdb \
 https://github.com/hypriot/image-builder-rpi/releases/download/v1.11.2/hypriotos-rpi-v1.11.2.img.zip
 ```
 
-$ ssh rlieh@black-pearl.local
+5 `ssh rlieh@black-pearl.local`
 
 Pour les personnes ne pouvant pas utiliser l'outil de construction d'image, une image standard préconstruite est disponible.
 TODO publier img sur github, ajouter lien vers img + vers doc hypriot https://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/ etc ...)
