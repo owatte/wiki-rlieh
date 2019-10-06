@@ -73,14 +73,14 @@ Ce fichier doit contenur 3 sections
 #### Exemple cuve matouba.INI
 
 4 phases quotidiennes 
-- aurore (dawn) 0 à 20% sur 10 mn
-- lever de soleil (sunrise) 20 à 100% sur 10 mn
-- coucher de soleil (sunset) 100 à 20% sur 10 mn
-- crépuscule 20% à 0 sur 10 mn
+- aurore (dawn) : 0 à 20% sur 10 mn
+- lever de soleil (sunrise) : 20 à 100% sur 10 mn
+- coucher de soleil (sunset) : 100 à 20% sur 10 mn
+- crépuscule (dusk) : 20% à 0 sur 10 mn
 
 2 phases exceptionnelles
-- test de 100% à 0 en 6 secondes
-- acclimatation de 100 à 25% en 6 secondes
+- test : de 100% à 0 en 6 secondes
+- acclimatation : de 100 à 25% en 6 secondes
 
 ```
 [hardware]
