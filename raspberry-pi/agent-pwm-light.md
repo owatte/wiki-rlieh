@@ -106,6 +106,6 @@ acclimatation = 0.1
 
 ## Plannification des phases d'éclairage
 
-Les phases sont appellées dans des tâches plannifiées avec [https://doc.ubuntu-fr.org/cron](CRON)
+Les phases sont appellées dans des tâches plannifiées avec [CRON](https://doc.ubuntu-fr.org/cron)
 
 
