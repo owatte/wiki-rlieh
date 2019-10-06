@@ -140,7 +140,7 @@ Pour faciliter la lecture et l'édition de la cron, je définis la commande d'ap
 #### Exemple
 Programmation de la phase d'aurore de 0 à 20% en 10 mn, du lundi au vendredi à 10h00 et programmatin de la même phase le week-end à 8h30 (RLIEH sat)
 ```
-LIGHT_MATOUBA="/usr/local/bin/rlieh-satlight -i /home/pi/conf/matouba.ini -p "
+LIGHT_MATOUBA="/usr/local/bin/rlieh-satlight -i /home/rlieh/conf/matouba.ini -p "
 0 10 * * 1-5 ${LIGHT_MATOUBA} dawn
 30 8 * * 0,6 ${LIGHT_MATOUBA} dawn
 
@@ -150,7 +150,7 @@ Ce fichier correspond à la configuration présentée par Mr Hackquarium [Ma fis
 ```
 MAILTO=me@example.com
 
-LIGHT_MATOUBA="/usr/local/bin/rlieh-satlight -i /home/pi/conf/matouba.ini -p "
+LIGHT_MATOUBA="/usr/local/bin/rlieh-satlight -i /home/rlieh/conf/matouba.ini -p "
 
 
 # RLIEH guardian
