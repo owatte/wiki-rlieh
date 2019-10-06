@@ -168,7 +168,7 @@ LIGHT_MATOUBA="/usr/local/bin/rlieh-satlight -i /home/pi/conf/matouba.ini -p "
 50 8 * * 0,6 ${LIGHT_MATOUBA} sunrise 
 50 8 * * 0,6 /usr/local/bin/rlieh-pwm range 20 100 18 --duration=10
 
-# evening 
+# evening (weekdays and week-end)
 30 20 * * * ${LIGHT_MATOUBA} sunset 
 30 20 * * * /usr/local/bin/rlieh-pwm range 100 20 18 --duration=10
 50 20 * * * ${LIGHT_MATOUBA} dusk
