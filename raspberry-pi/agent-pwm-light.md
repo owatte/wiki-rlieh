@@ -175,4 +175,5 @@ LIGHT_MATOUBA="/usr/local/bin/rlieh-satlight -i /home/pi/conf/matouba.ini -p "
 50 20 * * * /usr/local/bin/rlieh-pwm range 20 0 18 --duration=10
 ```
 
+TODO ajouter doc pour cron boot et guardian pour ré-allumage éclairage en cas de coupure d'électricité  
 
