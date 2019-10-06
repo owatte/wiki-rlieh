@@ -125,7 +125,7 @@ crontab -e
 Pour automatiser les phases d'éclairage par LEDs connectées sur le raspberry Pi, il suffit d'ajouter l'appel à la commande `rlieh-pwm` avec la durée et les valeurs de début et de fin de modulation, précédées de l'heure de déclanchement, définie en respectant la syntaxe cron
 
 #### Exemple
-Programmation de la phase d'aurore de 0 à 20% en 10 mn, du lundi au vendredi à 10h00 et programmatin de la même phase le week-end à 8h30 (éclairage avec carte RLIEH pour raspberry Pi, sur gpio 18)
+Programmation de la phase d'aurore de 0 à 20% en 10 mn, du lundi au vendredi à 10h00 et programmation de la même phase le week-end à 8h30 (éclairage avec carte RLIEH pour raspberry Pi, sur gpio 18)
 
 ```
 0 10 * * 1-5 /usr/local/bin/rlieh-pwm range 0 20 18 --duration=10
