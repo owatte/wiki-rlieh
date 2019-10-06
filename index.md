@@ -28,7 +28,7 @@ Seule l'installation Raspbian est documentée à l'heure actuelle
 * [Customisation Raspbian pour RLIEH](raspberry-pi/installation_systeme_rlieh_sur_raspberry_pi.md)
 * [Branchement des équipements et des sondes](raspberry-pi/rlieh-raspberry-pi-hat.md)
 * [Installation et paramétrages des agents RLIEH](raspberry-pi/parametrage_serveur_rlieh.md) (éclairage LEDS, ventilateurs, électro-vanne, température, humidité etc ...)
-  * * [Agent lumière avec des LEDs (PWM)](raspberry-pi/agent-pwm-light.md)
+  * [Agent lumière avec des LEDs (PWM)](raspberry-pi/agent-pwm-light.md)
 * Tâches  plannifiées ponctuelles (phases d'éclairage) et permanentes (thermostat)
 
 ### satellite RLIEH Smart Controller sur ESP
