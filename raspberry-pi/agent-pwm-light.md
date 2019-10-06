@@ -1,8 +1,10 @@
-#Installation et configuration de l'agent lumière (PWM)
+## Installation et configuration de l'agent lumière (PWM)
 
 Cet agent gère les phases de lumière (lever, couchers de soleil etc ...), et relance l'éclairage si besoin après une coupure d'électricité
 
-# Installation docker pi-blaster
+## Installation
+
+
 ```
 ssh rlieh@rlieh.local
 cd ~/src
@@ -11,4 +13,5 @@ cd pi-blaster
 docker build -itd pi-blaster .
 /usr/bin/docker run -itd --privileged --rm -v /dev:/dev pi-blaster
 (crontab -l ; echo "@reboot /usr/bin/docker run -it --privileged --rm -v /dev:/dev pi-blaster &") 2>&1 | grep -v "no crontab" | sort | uniq | crontab -
+sudo pip3 install rlieh-satlight rlieh_pwm
 ```
