@@ -1,4 +1,4 @@
- sudo apt-get install python3-w1thermsensor
+
 # Installation et configuration de l'agent suivi de température avec des sondes DS18B20
 
 Cet agent suit et contrôle les températures via des sondes de type DS18B20, selon le protocole 1-wire et permet :
@@ -19,11 +19,12 @@ L'agent utilise [W1ThermSensor](https://github.com/timofurrer/w1thermsensor) et 
 
 ### Brochage et connection de la sonde
 
-On utilise des sondes DS18B20 étanche (exemple [adafruit](https://www.adafruit.com/?q=waterproof%20DS18B20%20)). Si vous utilisez une breadboard pour votre montage, il vous faudra également des jumpers et une résistance 4.7kΩ ou 10kΩ.
+On utilise des sondes DS18B20 étanches (exemple [adafruit](https://www.adafruit.com/?q=waterproof%20DS18B20%20)). 
  
-Les sondes DS18B20 on 3 pins : masse (GND), alimentation 3.3V (VDD) et data (DQ) : le 1 wire utilise 1 seul GPIO et peut chaîner plusieurs sondes
+Ces sondes ont 3 pins : masse (GND), alimentation 3.3V (VDD) et data (DQ) : le 1 wire utilise 1 seul GPIO et peut chaîner plusieurs sondes
 
-Les kits pour les développeurs et les béta-testeurs utilisent des connecteurs grove et sont prêts à l'emploi  
+Les kits RLIEH pour les développeurs et les beta-testeurs utilisent des connecteurs grove et sont prêts à l'emploi. Si vous utilisez une breadboard pour votre montage, il vous faudra également des jumpers et une résistance 4.7kΩ ou 10kΩ.
+
 
 le [`config.txt`](rlieh-hypriot-config.txt) de votre raspberry Pi doit contenir la ligne suivante : 
 ```
@@ -34,6 +35,7 @@ Cette ligne est déjà présente dans la distribution Rlieh pour Raspberry Pi
 
 
 ## Installation
+
 ```
 sudo apt-get install python3-w1thermsensor
 ```
