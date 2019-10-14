@@ -44,9 +44,9 @@ Options à modifier :
     * P5 enable I2C
     * P7 enable one-wire interface
 
+
+```
 Reboot
-
-
 
 #### Python 
 ```
