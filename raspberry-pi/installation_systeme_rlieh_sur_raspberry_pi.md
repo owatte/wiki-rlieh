@@ -80,7 +80,24 @@ sudo chown user: /var/log/rlieh/
 Munin est un outil de surveillance système et réseau open source sous licence publique générale GNU3. Il s'appuie sur l'outil RRDTool. Il présente ses résultats sous forme de graphiques disponibles via une interface web. Il possède une structure de plugins particulièrement simple qui permet d'enrichir rapidement l'outil.(source : [wikipedia](https://fr.wikipedia.org/wiki/Munin_(logiciel)))
 
 ```
-sudo apt install munin munin-node
+sudo apt install munin munin-node lighttpd
+sudo mkdir  -p /var/www/munin
+sudo chown munin:munin /var/www/munin
+
+```
+```
+sudo nano /etc/munin/munin.conf
+```
+changer la ligne `htmldir`
+```
+htmldir /var/www/munin
 ```
 
+```
+sudo nano /etc/lighttpd/lighttpd.conf
+```
+changer la ligne document-root
+```
+server.document-root ="/var/www"
+```
 Et voilà !
