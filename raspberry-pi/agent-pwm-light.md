@@ -7,13 +7,18 @@ Le serveur RHLIEH Controller et les satellites RLIEH peuvent gerér des rampes 
 TODO : écrire procédure pour lumière gérée avec des relays (néons etc ...)
 
 ## Installation
+
+Un [script d'installation](agent-pwm-light-install.sh) est disponible.
+
+
 Connectez vous sur votre contrôleur RLIEH
 ```
 ssh rlieh@rlieh.local
 ```
-Puis exécutez la commande suivante :
+
+Téléchargez le script et exécutez-le avec la commande suivante :
 ```
-curl -fsSL https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/agent-pwm-light-install.sh -o agent-pwm-light-install.sh && sh agent-pwm-light-install.sh
+curl -fsSL https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/agent-pwm-light-install.sh -o agent-pwm-light-install.sh && sh agent-pwm-light-install.sh && rm agent-pwm-light-install.sh 
 ```
 
 ## Paramétrage des phases d'éclairage
@@ -186,7 +191,7 @@ Les fichiers de configuration des étages du rack s'appellent respectivement `ra
 for i in `ls ~/conf/rack0_*.ini`; do rlieh-satlight -i $i -p sunrise; done
 ```
 
-#### Passage d'un étage en éclairage pour acclimatation
+#### Passage d'un seul étage du rack en mode ''éclairage pour acclimatation''
 
 En cas de besoin d'acclimation pour de nouveaux arrivants, je passe l'étage concerné en mode acclimatation 
 ```
