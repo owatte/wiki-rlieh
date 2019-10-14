@@ -2,7 +2,7 @@
 
 Cet agent gère les phases de lumière (lever, couchers de soleil etc ...), et relance l'éclairage si besoin après une coupure d'électricité
 
-Le serveur RHLIEH Controller et les satellites RLIEH peuvent gérér des rampes de LEDS 12 ou 24V, rampes maison et du commerce.
+Le serveur RHLIEH Controller et les satellites RLIEH peuvent gerér des rampes de LEDS 12 ou 24V, rampes maison et du commerce.
 
 TODO : écrire procédure pour lumière gérée avec des relays (néons etc ...)
 
