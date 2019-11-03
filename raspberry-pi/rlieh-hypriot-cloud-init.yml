@@ -5,6 +5,12 @@
 hostname: rlieh
 manage_etc_hosts: true
 
+resize_rootfs: true
+growpart:
+    mode: auto
+    devices: ["/"]
+    ignore_growroot_disabled: false
+    
 # You could modify this for your own user information
 users:
   - name: rlieh 
