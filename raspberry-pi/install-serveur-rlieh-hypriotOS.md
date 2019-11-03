@@ -14,7 +14,7 @@ Remarque : l'outil flash est uniquement disponible pour GNU/Linux et Mac OS.
 ```
 $ wget https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/rlieh-hypriot-cloud-init.yml -O rlieh-hypriot-cloud-init.yml
 ```
-3. Téléchargez le fichier config.txt (active WiFi et 1-wire)
+3. Téléchargez le fichier [config.txt](raspberry-pi/rlieh-hypriot-config.txt) (active WiFi et 1-wire)
 ```
 $ wget https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/rlieh-hypriot-config.txt -O rlieh-hypriot-config.txt
 ```
