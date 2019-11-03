@@ -24,6 +24,7 @@ Le serveur RLIEH Smart Controller sur Raspberry Pi peut s'installer sur les syst
 
 Seule l'installation Raspbian est documentée à l'heure actuelle
 
+* [Installation du système Hypriot OS (recommandé](raspberry-pi/nstall-serveur-rlieh-hypriotOS.md) 
 * [Installation du système Raspbian](raspberry-pi/installation_raspbian.md)
 * [Customisation Raspbian pour RLIEH](raspberry-pi/installation_systeme_rlieh_sur_raspberry_pi.md)
 * [Branchement des équipements et des sondes](raspberry-pi/rlieh-raspberry-pi-hat.md)
