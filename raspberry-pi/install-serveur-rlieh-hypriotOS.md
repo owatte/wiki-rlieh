@@ -3,7 +3,7 @@
 HypriotOS est une version optimisée IOT et Docker de Raspbian lite. C'est probablement le meilleur choix pour un serveur RLIEH :
 - dernieres versions de `docker` et `docker-compose`
 - serveur SSH activé par défaut
-- support de cloud-init pour construire sa propre image (avec le WiFi configuré) et un paramétrage automatique lors du 1er boot
+- support de [cloud-init](https://cloudinit.readthedocs.io/en/latest/) pour construire sa propre image (avec le WiFi configuré) et un paramétrage automatique lors du 1er boot
 
 ## Installation
 
