@@ -11,6 +11,10 @@ HypriotOS est une version optimisée IOT et Docker de Raspbian lite. C'est proba
 Attention : flash a quelques [dépendances](https://github.com/hypriot/flash#install-dependencies)<br> 
 Remarque : l'outil flash est uniquement disponible pour GNU/Linux et Mac OS.
 2. Téléchargez et modifiez le fichier [cloud-init.yml](rlieh-hypriot-cloud-init.yml) avec les paramètres de votre réseau wifi<br>
+ ```
+      ssid="YourSSID"
+      psk="YourSecretPreSharedKey"
+```
 (Vous pouvez vérifier la syntaxe de votre fichier yaml vavec un [Linter YAML](http://www.yamllint.com/))
 ```
 $ wget https://raw.githubusercontent.com/owatte/wiki-rlieh/master/raspberry-pi/rlieh-hypriot-cloud-init.yml -O rlieh-hypriot-cloud-init.yml
