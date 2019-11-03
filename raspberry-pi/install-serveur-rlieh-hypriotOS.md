@@ -1,4 +1,4 @@
-# Installation du Serveur RLIEH Controller sur HypriotOS
+# Installation du Serveur RLIEH Controller sur Hypriot OS
 
 HypriotOS est une version optimisée IOT et Docker de Raspbian lite. C'est probablement le meilleur choix pour un serveur RLIEH :
 - dernieres versions de `docker` et `docker-compose`
