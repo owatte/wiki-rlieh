@@ -7,8 +7,8 @@ HypriotOS est une version optimisée IOT et Docker de Raspbian lite. C'est proba
 
 ## Installation
 
-1. Installez [flash](https://github.com/hypriot/flash) 
-Attention : flash a quelques [dépendances](https://github.com/hypriot/flash#install-dependencies) 
+1. Installez [flash](https://github.com/hypriot/flash)<br> 
+Attention : flash a quelques [dépendances](https://github.com/hypriot/flash#install-dependencies)<br> 
 Remarque : l'outil flash est uniquement disponible pour GNU/Linux et Mac OS.
 2. Téléchargez et modifiez le fichier [cloud-init.yml](raspberry-pi/rlieh-hypriot-cloud-init.yml) en saisissant les paramètres de votre réseau wifi 
 ```
